@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="8" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://erail.in/"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" verbose="8" name="Test(failed)">
+    <classes>
+      <class name="org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability">
+        <methods>
+          <include name="report"/>
+          <include name="GetSeatAvailability"/>
+          <include name="stopReport"/>
+          <include name="setUpClass"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+          <include name="beforeTest"/>
+          <include name="tearDownClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

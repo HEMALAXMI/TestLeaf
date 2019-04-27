@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44844" started-at="2019-04-27T05:45:47Z" finished-at="2019-04-27T05:46:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="44844" started-at="2019-04-27T05:45:47Z" finished-at="2019-04-27T05:46:32Z">
+      <class name="org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="startReport" is-config="true" duration-ms="580" started-at="2019-04-27T05:45:47Z" finished-at="2019-04-27T05:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-27T05:45:47Z" finished-at="2019-04-27T05:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="setUpClass" is-config="true" duration-ms="196" started-at="2019-04-27T05:45:47Z" finished-at="2019-04-27T05:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="report" is-config="true" duration-ms="9" started-at="2019-04-27T05:45:48Z" finished-at="2019-04-27T05:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="beforeMethod" is-config="true" duration-ms="38290" started-at="2019-04-27T05:45:49Z" finished-at="2019-04-27T05:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://erail.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GetSeatAvailability(java.util.Map)[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="GetSeatAvailability" duration-ms="5388" started-at="2019-04-27T05:46:27Z" data-provider="fetchData" finished-at="2019-04-27T05:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Title=Indian Railways Enquiry PNR Status Live Status IRCTC Reservation Seats, From=MAS, To=SBC, TestCaseName=TC001_GetSeatAvailability, TrainName=SHATABDI EXP}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSeatAvailability -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-04-27T05:46:32Z" finished-at="2019-04-27T05:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability@1df90b0]" name="stopReport" is-config="true" duration-ms="794" started-at="2019-04-27T05:46:32Z" finished-at="2019-04-27T05:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- org.selfPractice.PracticeFramework.TestCases.TC001_GetSeatAvailability -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
